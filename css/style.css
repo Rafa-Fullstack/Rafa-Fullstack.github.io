@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+*{
+    font-family: "Montserrat", sans-serif;
+}
+body{
+    background-color: white;
+    margin: 0%;
+    background-image: linear-gradient(to left,#07A0C3,#0015ff );
+}
+header{
+    display: flex;
+    margin: auto;
+    margin-top: 0px;
+    justify-content: space-around ;
+    background-image: linear-gradient(to right,#3228f2df,#0212c1df );
+    padding: 0%;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.logo-header{
+    margin-top: 1px;
+    padding: 3px;
+    width: 265px;
+    height: 95px;
+}
+.menu-h ul{
+    list-style: none;
+    padding: 5px;
+    background-color: #36363600;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.menu-h ul li{
+    display: inline;
+}
+.menu-h ul li a{
+    color: white;
+    text-decoration: none;
+    margin: 9px;
+    display: inline-block;
+}
+.menu-h ul li a:hover{
+    color: #F0C808;
+    transform: scale(1.08);
+    transition: 0.15s linear;
+}
+.d1{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 400px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 30px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    text-shadow: rgba(0, 0, 0, 0.478) 1px 1px 2px;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+.d1 p{
+    font-weight:500;
+    color: #FFF1D0;
+    margin: 0;
+    margin-top: 79px;
+    font-size: 34pt;
+    text-align: end;
+}
+.d2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 440px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: auto;
+    border-radius: 30px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    text-shadow: rgba(0, 0, 0, 0.478) 1px 1px 2px;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+.d2 p{
+    font-weight: 500;
+    color: #FFF1D0;
+    margin: 0;
+    margin-top: 79px;
+    font-size: 34pt;
+    text-align: start;
+}
+.img-1{
+    width: 420px;
+    height: 420px;
+    margin: 0%;
+    border-radius: 30px;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.5);
+}
+.img-2{
+    width: 420px;
+    height: 420px;
+    margin: 0%;
+    border-radius: 30px;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.5);
+}
+.relaxe{
+    width: 790px;
+    height: 475px;
+    border-radius: 30px;
+    font-weight: 600;
+    line-height: 1.5;
+    text-shadow: rgba(0, 0, 0, 0.478) 1px 1px 2px;
+}
+.relaxe h2{
+    font-weight: 900;
+    margin-top: 9px;
+    font-size: 36pt;
+}
+.relaxe p{
+    text-align: start;
+    font-weight: 500;
+    font-size: 27pt;
+}
+.logos-apps{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    gap: 0.5vw;
+    padding: 12px;
+    padding-left: 0%;
+    padding-right: 0%;
+    justify-content: end;
+    margin-top: 1%;
+    cursor: pointer;
+}
+.logos-apps img{
+    margin: 12px;
+    margin-top: 12%;
+}
+.logos-apps p{
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 14pt;
+    margin-top:1%;
+}
+.whatsapp{
+    width: 200px;
+    height: 250px;
+    border-radius: 30px;
+    text-align: center;
+}
+.whatsapp img{
+    width: 130px;
+    height: 130px;
+}
+.whatsapp:hover{
+    transform: scale(1.1);
+    transition: 0.15s linear;
+}
+.instagram{
+    width: 200px;
+    height: 250px;
+    border-radius: 30px;
+    text-align: center;
+}
+.instagram img{
+    width: 130px;
+    height: 130px;
+}
+.instagram:hover{
+    transform: scale(1.1);
+    transition: 0.15s linear;
+}
+.localização{
+    width: 200px;
+    height: 250px;
+    border-radius: 30px;
+    text-align: center;
+}
+.localização img{
+    width: 105px;
+    height: 130px;
+}
+.localização:hover{
+    transform: scale(1.1);
+    transition: 0.15s linear;
+}
+.d3{
+    width: 100%;
+    height: 800px;
+    background-color: #F0C808;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.faq{
+    width: 90%;
+    margin-left: 5%;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 2%;
+}
+section h1{
+    margin-left: 1%;
+    color: white;
+    font-weight: 900;
+    cursor: pointer;
+}
+section details summary{
+    background-color: #ffffff00;
+    color: white;
+    padding: 1%;
+    margin: 0%;
+    font-size: 16pt;
+    border-bottom: 2px solid #2828282b;
+    cursor: pointer;
+}
+section details p{
+    background-color:  rgba(5, 5, 115, 0.704);
+    color: white;
+    padding: 1%;
+    margin: 0%;
+    font-weight: 500;
+    cursor: pointer;
+}
+footer{
+    height: 225px;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    margin: auto;
+}
+footer h1{
+    font-weight: 900;
+}
+.bottom{
+    margin-top: 45px;
+    width: 100%;
+    margin-bottom: 0%;
+    padding: 10px 0;
+    background-color: rgb(5, 5, 115);
+}
+@media screen and (max-width:1200px){
+
+    body{
+        background-color: white;
+        margin: 0%;
+        background-image: linear-gradient(to left,#07A0C3,#0212c1 );
+    }
+    header{
+        height: 85px;
+        width: 100%;
+    }
+    .logo-header{
+        margin-top: 1px;
+        margin-bottom: 2%;
+        width: 212px;
+        height: 75px;
+
+    }
+    .menu-h ul{
+        padding: 5px;
+        font-size: 18px;
+        margin-top: 4.5%;
+    }
+    .d1{
+        height: 260px;
+    }
+    .d1 p{
+        font-size: 24pt;
+    }
+    .img-1{
+        width: 290px;
+        height: 290px;
+    }
+    .d2{
+        margin-top: 0%;
+        margin-bottom: 12%;
+        height: 260px;
+    }
+    .d2 p{
+        font-size: 24pt;
+    }
+    .img-2{
+        width: 290px;
+        height: 290px;
+    }
+    .whatsapp{
+        width: 150px;
+        height: 150px;
+    }
+    .whatsapp img{
+        width: 90px;
+        height: 90px;
+    } 
+    .instagram{
+        width: 150px;
+        height: 100px;
+    }
+    .instagram img{
+        width: 90px;
+        height: 90px;
+    }
+    .localização{
+        width: 150px;
+        height: 100px;
+    }
+    .localização img{
+        width: 70px;
+        height: 90px;
+    }
+    .logos-apps{
+        height: 150px;
+    }
+    .logos-apps p{
+        font-size: 12px;
+    }
+    .faq{
+        width: 80%;
+        margin-left: 10%;
+    }
+    section details summary{
+        font-size: 11pt;
+    }
+    footer{
+        height: 125px;
+        width: 100%;
+        background-color: blue;
+        color: white;
+        text-align: center;
+        padding-top: 20px;
+        margin: auto;
+        margin-bottom: 0%;
+    }
+    footer h1{
+        font-weight: 900;
+        font-size: 18pt;
+    }
+    .bottom{
+        margin-top: 0%;
+        padding: 5px 0;
+    }
+}
